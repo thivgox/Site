@@ -1,0 +1,106 @@
+.planos{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    background-color: var(--cinza-claro);
+}
+.cartao_titulo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.planos_lista{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 1.25rem;
+}
+.planos_itens{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+.cartao_titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .75rem 0;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid var(--azul-claro);
+}
+.itens_conteudo{
+    padding-left: 15% ;
+    padding-right: 15% ;
+}
+
+.iten_preço{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.planos_texto{
+color: var(--fonte-cinza);
+line-height: 28px;
+
+}
+
+.botao_planos{
+    font-size: 1.2rem;
+    font-weight: 700;
+   width: 100%;
+   align-self: center;
+   padding:  .75rem 2rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem ;
+}
+.cartao--start {
+    color: var(--planos-cartao-start);
+}
+
+.cartao--ultra {
+    color: var(--planos-cartao-ultra);
+}
+
+.cartao--mega {
+    color: var(--planos-cartao-mega);
+}
+.cartao__botao--start {
+    border-color: var(--planos-cartao-start);
+}
+
+.cartao__botao--ultra {
+    border-color: var(--planos-cartao-ultra);
+}
+
+.cartao__botao--mega {
+    border-color: var(--planos-cartao-mega);
+}
+@media screen and (min-width: 1024px) {
+    .planos_lista{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        padding-top: 3rem;
+        
+    }
+    .cartao--ultra {
+        border-top:15px solid var(--planos-cartao-ultra)  ;
+        margin-top: -3rem;
+        max-width: 325px;
+        
+    }
+    
+}
+

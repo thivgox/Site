@@ -1,0 +1,32 @@
+.institucional_titulo{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--cinza-escuro);
+}
+.institucional_conteudo{
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+text-align: center;
+font-weight: 400;
+
+}
+.institucional_end{
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.institucional_contato{
+
+    padding-top: 2rem;
+    
+
+}
+.video{
+    width: 100vw;
+}
+

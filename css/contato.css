@@ -1,0 +1,29 @@
+.contato{
+    text-align: center;
+    padding: 2rem;
+   
+}
+.contato_titulo{
+    
+    text-align: center;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--cinza-escuro);
+}
+.contato_texto{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+.botao_contato{
+    font-weight: 500;
+    display: inline-block;
+    border-color: var(--fonte-cinza);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    font-size: 1.75rem;
+    
+}
