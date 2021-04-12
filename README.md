@@ -1,2 +1,2 @@
 # https://thivgox.github.io/Site/
-Arquivos do projeto para a Apeperia
+Projeto feito com html e css, utilizando o conceito de mobile first e design responsivo. 
